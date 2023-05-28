@@ -1,0 +1,55 @@
+body{
+    background-size: cover;
+}
+.f{
+    width: 100%;
+    margin-top: 0;
+    font-size: 32px;
+    color: rgb(91, 255, 217);
+    background-color: rgb(119, 0, 255);
+}
+#a{
+    margin-top: 10;
+    font-size: 16px;
+    color: rgb(91, 255, 217);
+}
+#s{
+    font-size: 16px;
+    color: rgb(150, 58, 255);
+    background-color: rgb(91, 255, 217);
+    border-radius: 10px;
+    border-color: rgb(91, 255, 217);
+}
+#g,#h{
+    font-size: 16px;
+    color: rgb(205, 161, 255); 
+}
+#d{
+    position: fixed;
+    bottom: 0;
+    background: rgba(133, 68, 255, 0.63);
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 255, 247);
+    line-height: 3;
+}
+.b{
+    color: rgb(0, 81, 255);
+    border-color:whitesmoke ;
+}
+canvas{
+    border: 4px double rgb(255, 0, 234);;
+    border-radius: 40px;
+    margin: 120px;
+    animation-name: a;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+}
+@keyframes a{
+    from{
+        box-shadow: 16px 16px 40px rgb(128, 0, 255);
+    }
+    to{
+        box-shadow: 16px 16px 40px rgb(0, 157, 255);
+    }
+}
